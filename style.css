@@ -1,0 +1,607 @@
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*************** 5 easy step page-1 start here ***************/
+
+/*
+========================
+Header area start
+========================
+*/
+
+body {	
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #000000;	
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);   
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+}
+header {
+    padding-top:16px;
+}
+
+.header-arrow2 {
+    background:transparent;
+    width:100%;
+    max-width:46.67px;
+    min-height:41.67px;
+    border:1.5px solid #F3F6F9;
+    border-radius:15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header-arrow1 {
+    background:transparent;
+    width:100%;
+    max-width:46.67px;
+    min-height:41.67px;
+    border:1.5px solid #83271A;
+    border-radius:15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.logout-btn {
+    border:0;
+    outline:none;
+    border-radius: 4px;
+    background: #83271A;
+    width:100%;
+    min-height:38px;
+    max-width:111px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    margin-left: auto;
+    position: relative;
+}
+.logout-btn::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(0);
+    transition:0.5s;
+}
+.logout-btn:hover:after {
+    transform: scale(1);
+}
+
+/*
+========================
+step area start
+========================
+*/
+.step-area {
+    margin-top:30px;
+    padding-bottom:85px;
+}
+.step-content > h2 {
+    width:516px;
+    font-family: 'Inter', sans-serif;
+    color: #1E243A;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom:18px;
+}
+.step-item {
+    width:100%;
+    max-width:503px;
+    min-height:91px;
+    border-radius:4px;
+    border-left:3px solid #B63725;
+    border-top:1px solid #C2D6FB;
+    border-right:1px solid #C2D6FB;
+    border-bottom:1px solid #C2D6FB;
+    background: #E1EBFD;
+    padding-top:15px;
+    padding-left:10px;
+    display: flex;
+    align-items:flex-start;
+    gap:13px;
+    margin-top:33px;
+}
+.step-item-text h4 {
+    margin-bottom:0;
+    color: #1E243A;
+    font-size:20px;
+    font-weight: 600;
+}
+.step-item-text p {
+    margin-bottom:0;
+    color: #1E243A;
+    font-size:16px;
+    font-weight:400;
+}
+.step-content {
+    border-right:5px solid #83271A;
+}
+.step-image > img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.step-image > a {
+    text-decoration:none;
+    background:#B63725;
+    width:100%;
+    max-width: 280.411px;
+    min-height: 61px;
+    margin-top:71px;
+    padding:0 12px;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.step-image > a::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width:100%;
+    max-width:88.551px;
+    height:100%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px 0px 0px 4px;
+    top:0;
+    left:0;
+    transition:0.5s;
+}
+.step-image > a:hover::after {
+    max-width:100%;
+}
+.step-image > a img {
+    display: inline-block;
+    margin-right:50px;
+    margin-left:10px;
+}
+
+
+/*************** Preauthorization page-2 start here ***************/
+
+
+/*
+========================
+Header area start
+========================
+*/
+.Preauthorization-header .header-btn {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.Preauthorization-header .header-btn > img {
+    cursor: pointer;
+}
+
+/*
+============================
+Preauthorization area start
+============================
+*/
+.Preauthorization-area .step-content h2 {
+    margin-bottom:0px !important;
+}
+.Preauthorization-notice {
+    width:100%;
+    max-width:545px;
+    min-height:145px;
+    border-radius: 4px;
+    border: 1px solid #E9EBEC;
+    margin-right:100px;
+}
+.Preauthorization-notice {
+    padding: 15px 0 5px 15px;
+}
+.Preauthorization-notice p {
+    margin-bottom:0;
+    color: #1E243A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+.Preauthorization-notice p a {
+    text-decoration:underline;
+    color: #2931F6;
+    font-weight:600;
+}
+.Preauthorization-notice h6 {
+    margin-bottom:14px;
+    color: #83271A;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right:19px;
+}
+.Preauthorization-notice {
+    margin-top:29px;
+    margin-bottom:4px;
+    position: relative;
+}
+.Preauthorization-notice img {
+    position: absolute;
+    top:-5px;
+    left:0;
+}
+.Preauthorization-area .step-item {
+    min-height:100px;
+}
+.Preauthorization-area .step-item p a {
+    text-decoration:underline;
+    color: #2931F6;
+    font-weight:600;
+}
+.Preauthorization-area .step-image > img {
+    margin-left:120px;
+    width:100%;
+    max-width:416px;
+}
+
+
+
+/*************** Connection page-3 start here ***************/
+/*
+============================
+Connection area start
+============================
+*/
+.Connection-item {
+    width:100%;
+    max-width:363.5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Connection-item h6 {
+    color: #212529;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom:0;
+}
+.Connection-item  h3 {
+    text-align:center;
+    margin-top:16px;
+    color: #83271A;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom:0;
+}
+.Connection-item  h4 {
+    color: #212529;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top:27px;
+    margin-bottom:5px;
+}
+.Connection-item a {
+    text-decoration:none;
+    color: #83271A;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 5px solid #83271A;
+    display: block;
+    width:100%;
+    max-width:379px;
+    min-height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:0.5s;
+}
+.Connection-item a:hover {
+    background-color:#83271A;
+    color:#fff;
+}
+.Connection-item {
+    padding-bottom:78px;
+    border-bottom:5px solid #1E243A;
+}
+.Connection-content > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:52px;
+}
+.Connection-content > h2 {
+    margin-bottom:26px;
+}
+.Connection-area .step-image {
+    text-align: center;
+}
+.Connection-area .step-image label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:50px;
+    display: flex;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+}
+.Connection-area .step-image label a {
+    text-decoration:underline;
+    font-weight: 600;
+    color: #2931F6;
+}
+.Connection-area .step-image label input {
+    width:27px;
+    height:27px;
+    accent-color:#83271A;
+}
+.Connection-content > a {
+    margin-top:30px;
+}
+
+
+/*************** Success page-4 start here ***************/
+/*
+============================
+Success area start
+============================
+*/
+.success-content {
+    width:100%;
+    max-width:451px;
+    min-height:317px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(56, 65, 74, 0.15);
+    text-align:center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+.success-content h3 {
+    color: #1E243A;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-top:5px;
+}
+.success-content p {
+    margin-bottom:0;
+    margin-top:26px;
+    color: #1E243A;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+}
+.success-area .step-content {
+    width:100%;
+    min-height:653px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success2-image > img {
+    width:100%;
+    max-width:510px !important;
+    margin-left:0 !important;
+    margin-left: auto !important;
+    margin-right: auto!important; 
+}
+
+
+/*************** room access page start here ***************/
+/*
+============================
+room access area start
+============================
+*/
+.room-input {
+    margin-top:37px;
+}
+.room-input input {
+    display:block;
+    outline: none;
+    width:100%;
+    max-width:462px;
+    min-height:37px;
+    padding:0 15px;
+    margin-bottom:20px;
+    border-radius: 4px;
+    border: 1px solid #1E243A;
+    color: #1E243A;
+    font-size: 13px;
+    font-weight: 500;
+}
+.room-input input:focus {
+    border:1px solid #B63725;
+}
+.room-input input::placeholder {
+    color: #1E243A;
+    font-size: 13px;
+    font-weight: 400;
+}
+.room-input label {
+    color: #1E243A;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    margin-bottom:9px;
+}
+.room-input {
+    width:100%;
+    max-width:462px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.room-image > a {
+    width:100%;
+    max-width:229px;
+    margin-bottom:95px;
+}
+.room-image > a img {
+    margin-right:70px;
+    
+}
+.room-image > img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.room-access-area .step-content {
+    padding-top:30px;
+    padding-bottom:245px;
+}
+
+
+/**************** checkin complete page start here ****************/
+/*
+============================
+checkin complete area start
+============================
+*/
+main {
+    background:#212529;
+    width:100%;
+    min-height:100vh;
+}
+.checkin-complete-item button {
+    border:0;
+    outline:none;
+    border-radius: 4px;
+    background: #83271A;
+    width:100%;
+    min-height:76px;
+    max-width:222px;
+    font-size:32px;
+    font-weight:700;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top:83px;
+}
+.checkin-complete-item button img {
+    width:100%;
+    max-width:48px;
+}
+.checkin-complete-item button::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(0);
+    transition:0.5s;
+}
+.checkin-complete-item button:hover:after {
+    transform: scale(1);
+}
+.checkin-complete-content {
+    width:100%;
+    min-height:89vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.checkin-complete-content > a img {
+    width:100%;
+    max-width:254px;
+}
+.checkin-complete-content > a {
+    margin-bottom:53px;
+}
+.checkin-complete-item > img {
+    width:100%;
+    max-width:96px;
+    margin-bottom:15px;
+}
+.checkin-complete-item h4 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-bottom:26px;
+}
+.checkin-complete-item  p {
+    color: #F3F6F9;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    margin-bottom:0;
+}
+.connection-image > a {
+    margin-top:31px;
+}
+
+.id-textbox {
+    min-height:110px;
+}

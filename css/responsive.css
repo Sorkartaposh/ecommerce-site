@@ -1,0 +1,456 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.step-content {
+    padding-right:20px;
+}
+.step-content > h2 {
+    width:100%;
+}
+.step-image > img {
+    width:100%;
+    max-width:417px;
+}
+
+    /* page 2 start here */
+.Preauthorization-area .step-image > img {
+    margin-left:90px;
+    width:100%;
+    max-width:360px;
+}
+
+    /* page 3 start here */
+
+.Connection-area .step-image > img {
+    width:100%;
+    max-width:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .step-content {
+        padding-right:20px;
+    }
+    .step-content > h2 {
+        width:100%;
+    }
+    .step-image > img {
+        width:100%;
+        max-width:417px;
+    }
+    .step-image {
+        padding:0 20px;
+    }
+
+    /* page 2 start here */
+    .Preauthorization-area .step-image > img {
+        margin-left:40px;
+        width:100%;
+        max-width:350px;
+    }
+    .Preauthorization-area .step-image a {
+        width: 100%;
+        max-width: 250px;
+        min-height: 61px;
+        margin-top: 71px;
+        padding: 0 12px;
+        font-size:18px;
+    }
+    .Preauthorization-area .step-image a img {
+        width:30px;
+    }
+    .step-image a::after {
+        max-width:75px;
+    }
+
+    /* page 3 start here */
+    .Connection-area .step-image > img {
+        width:100%;
+        max-width:200px;
+    }
+    
+    /* page 5 start here */
+    .success2-image > img {
+        width:100%;
+        max-width:350px !important;
+        margin-left:0;
+    }
+
+
+    .Preauthorization-image > img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .Connection-area .step-image label a {
+        font-size:12px;
+    }
+    .Connection-area .step-image label {
+        gap:5px;
+    }
+    .Connection-area .step-image label  input {
+        width:22px;
+        height:22px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+    .step-content {
+        padding-right:20px;
+    }
+    .step-content > h2 {
+        width:100%;
+    }
+    .step-image > img {
+        width:100%;
+        max-width:500px;
+    }
+    .step-image {
+        padding:0;
+        margin-top:50px;
+    }
+    .step-content {
+        border-right:none !important;
+        padding-right:0;
+    }
+    .step-item {
+        max-width:100%;
+    }
+
+
+     /* page 2 start here */
+     .Preauthorization-area .step-image > img {
+        padding-left:50px;
+        width:100%;
+        max-width:350px;
+    }
+    .Preauthorization-area .step-image a {
+        width: 100%;
+        max-width: 220px;
+        min-height: 61px;
+        margin-top: 71px;
+        padding: 0 12px;
+        font-size:14px;
+    }
+    .Preauthorization-area .step-image a img {
+        width:25px;
+    }
+    .step-image a::after {
+        max-width:70px;
+    }
+    .Preauthorization-notice {
+        max-width:100%;
+    }
+
+ /* page 3 start here */
+ .Connection-area .step-image > img {
+    width:100%;
+    max-width:200px;
+}
+
+ /* page 4 start here */
+.success-area .step-content {
+    min-height: auto;
+}
+.success-area .step-image > img {
+    max-width:400px;
+    margin-left:150px;
+}
+.success2-image > img {
+    width:100%;
+    max-width:350px !important;
+    margin-left:0;
+}
+
+
+
+.room-access-area .step-content {
+    padding-top:10px;
+    padding-bottom:0px;
+}
+.room-image > a {
+    margin-top:0px !important;
+}
+
+
+.checkin-complete-item button {
+    max-width:170px;
+    min-height:68px;
+    font-size:18px;
+    gap:8px;
+    margin-top:30px;
+}
+.checkin-complete-item button img {
+    max-width:35px;
+}
+.checkin-complete-item h4 {
+    font-size: 30px;
+}
+.checkin-complete-item p {
+    font-size:20px;
+}
+.checkin-complete-item > img {
+    max-width:70px;
+    margin-bottom:10px;
+}
+.checkin-complete-content > a img {
+    max-width:180px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+    .header-btn button {
+        font-size:14px;
+    }
+    .step-area {
+        padding-bottom:30px;
+    }
+    .step-content {
+        padding-right:20px;
+    }
+    .step-content > h2 {
+        width:100%;
+        font-size:25px;
+        margin-bottom:0;
+    }
+    .step-image > img {
+        width:100%;
+        max-width:500px;
+    }
+    .step-image {
+        padding:0;
+        margin-top:50px;
+    }
+    .step-content {
+        border-right:none !important;
+        padding-right:0;
+    }
+    .step-item {
+        max-width:100%;
+    }
+    .step-item-text h4 {
+        font-size:18px;
+    }
+    .step-item-text p {
+        font-size:14px;
+    }
+    .step-item {
+        min-height:75px;
+        margin-top:15px;
+    }
+    .step-image a {
+        font-size:18px;
+        margin-top:40px;
+    }
+
+     /* page 2 start here */
+     .Preauthorization-area .step-image > img {
+        width:100%;
+        max-width:330px;
+    }
+    .Preauthorization-area .step-image a {
+        width: 100%;
+        max-width: 220px;
+        min-height: 61px;
+        margin-top: 71px;
+        padding: 0 12px;
+        font-size:14px;
+    }
+    .Preauthorization-area .step-image a img {
+        width:25px;
+    }
+    .step-image a::after {
+        max-width:70px;
+    }
+    .Preauthorization-notice {
+        max-width:100%;
+    }
+    .Preauthorization-notice p {
+        font-size:14px;
+    }
+
+ /* page 3 start here */
+ .Connection-area .step-image > img {
+    width:100%;
+    max-width:200px;
+}
+.Connection-content > h2 {
+    margin-bottom:20px;
+}
+.Connection-area .step-image label {
+    font-size:12px;
+    gap:8px;
+    margin-top:20px;
+}
+.Connection-area .step-image label a {
+    font-size:12px;
+}
+.Connection-area .step-image label input {
+    width:20px;
+    height:20px;
+}
+.Connection-item {
+    padding-bottom:20px;
+}
+.Connection-item a {
+    font-size:25px;
+    font-weight:600;
+    border-radius:15px;
+    border:3px solid #83271A;
+}
+.Connection-content > img {
+    width:100%;
+    max-width:200px;
+    margin-top:30px;
+}
+
+.Connection-area .step-image > a {
+    width:100%;
+    max-width:250px;
+    margin-top:20px;
+}
+.Connection-area .step-image > a  img {
+    width:25px;
+}
+.Connection-item h3 {
+    font-size:25px;
+}
+.Connection-item h6 {
+    font-size:18px;
+}
+.Connection-item h4 {
+    font-size:20px;
+}
+
+
+ /* page 4 start here */
+ .success-area .step-content {
+    min-height: auto;
+}
+.success-area .step-image > img {
+    width:100%;
+    max-width:400px;
+}
+.success-content h3 {
+    font-size:30px;
+}
+.success-content > img {
+    width:100%;
+    max-width:80px;
+}
+.success-content p {
+    font-size:20px;
+    margin-top:15px;
+}
+
+.success2-image > img {
+    width:100%;
+    max-width:300px !important;
+    margin-left:0;
+}
+.id-image > img {
+    width:100%;
+    max-width:300px !important;
+}
+
+
+
+.room-access-area .step-content {
+    padding-top:10px;
+    padding-bottom:0px;
+}
+.room-image > a {
+    margin-top:0px !important;
+}
+
+.checkin-complete-item button {
+    max-width:170px;
+    min-height:68px;
+    font-size:18px;
+    gap:8px;
+    margin-top:30px;
+}
+.checkin-complete-item button img {
+    max-width:35px;
+}
+.checkin-complete-item h4 {
+    font-size: 30px;
+}
+.checkin-complete-item p {
+    font-size:20px;
+}
+.checkin-complete-item > img {
+    max-width:70px;
+    margin-bottom:10px;
+}
+.checkin-complete-content > a img {
+    max-width:180px;
+}
+
+
+
+
+}
